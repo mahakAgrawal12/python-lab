@@ -1,0 +1,17 @@
+n=input('enter the string')
+s=input('enter the substring')
+k=-1
+c=0
+for i in range(len(n)):
+        k=n.find(s,k+1)
+        if k=-1:
+        c+=1
+print(c)
+n=input('enter the string')
+s=input('enter the substring')
+c=0
+for i in range(len(n)-len(s)+1):
+        if s==n[i:i+len(s)]:
+                c+=1
+print(c)
+
