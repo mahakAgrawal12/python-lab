@@ -1,0 +1,8 @@
+c=50
+h=30
+l=[]
+d=list(map(int,input().split(' ')))
+for i in d:
+        m=((2*c*d)//h)**(1/2)
+        l.append(m)
+        print(*l,sep=",")
