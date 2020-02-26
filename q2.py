@@ -1,0 +1,5 @@
+n=tuple(map(int,input().split(",")))
+m=list(n)
+i=tuple(n)
+print(m)
+print(i)
